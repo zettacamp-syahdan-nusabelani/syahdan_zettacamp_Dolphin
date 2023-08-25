@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+  background-color: #6c3428;
+}
+
+.fontstyle {
+  font-family: 'Lato', sans-serif;
+}
+#fontstyle-header {
+  font-family: 'Source Code Pro', monospace;
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+#header-quote {
+  margin-top: 0px;
+}
+
+a {
+  color: #cee6f3;
+}
+
+h1 {
+  color: #ba704f;
+}
+
+h3 {
+  color: #dfa878;
+  margin: 5px 0px 0px 2px;
+}
+
+p {
+  color: #cee6f3;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#hi-top {
+  margin-bottom: 0px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#pp {
+  border-radius: 25%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: solid #ffc26f;
+}
+
+.avatar-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.sub-title {
+  display: flex;
+  text-align: center;
+}
+
+/* ---------RIGHT SECTION--------- */
+
+#subright-alligntext {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+#center-container {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.right-alligntext {
+  text-align: right;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+#rightavataricon {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+/* ---------END OF RIGHT SECTION----------- */
+
+#bot-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mailIcon {
+  width: 25px;
+  height: 25px;
+  margin: 0px 3px 0px 0px;
+}
+
+#mailTarget {
+  margin: 0px 0px 1px 5px;
+}
