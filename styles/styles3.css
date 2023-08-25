@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.li-attribute {
+  border: #f0f0f0 solid;
+  padding: 10px 0px 10px 0px;
+  transition: 0.3s;
+}
+
+.li-attribute:hover {
+  background-color: #dddd;
+  color: black;
+}
+
+.item-description {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+
+  /*  menyusun elemen-elemen dalam sebuah wadah dengan jarak yang sama di antara mereka, serta memberikan ruang ekstra di sisi kiri dan kanan setiap elemen. */
+}
+
+.container {
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.scrollable-list {
+  max-height: 500px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.scrollable-list ul {
+  list-style: none;
+  padding: 0;
+  /* Biar tidak nampak titik2nya */
+}
+
+.scrollable-list li {
+  margin: 5px 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-menu {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 11px 18px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+  transition: 0.3s;
+}
+
+.btn-menu:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.btn-menu:active {
+  position: relative;
+  top: 1px;
+}

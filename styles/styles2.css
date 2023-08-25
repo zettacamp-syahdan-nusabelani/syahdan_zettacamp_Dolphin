@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 22%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* margin: 5px; */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardSize {
+  height: 45px;
+  width: 45px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+/* STICKY HEADER */
+.ccsticky-nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background: #139ed8;
+  /* margin-bottom: 20px; */
+}
+
+.ccsticky-nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.ccsticky-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.ccsticky-nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.ccsticky-nav ul li a:hover {
+  color: #34495e;
+}
+
+.cards-container-sticky-header {
+  margin-top: 100px;
+}
