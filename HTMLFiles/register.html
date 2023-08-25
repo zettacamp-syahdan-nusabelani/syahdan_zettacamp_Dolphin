@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>Register</title>
+    <link rel="stylesheet" href="..//assets/styles.css" />
+  </head>
+  <body>
+    <!--  
+    a) Register user should be a form with : email, name, phone number, and their type of account(free, personal, etc in radio button)
+    b) On Submit button route user to profile -->
+<div id="registerBox">
+    <form id="registerForm" action="../HTMLFiles/profiles.html" method="post">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" type="number"  /><br /><br />
+    </div>
+
+    <div class="radioContainer">
+    <h3>Gender: </h3>
+    <div class="radioOption">
+      <input type="radio" id="html" name="gender" value="male" />
+      <label for="html">Male</label>
+    </div>
+    <div class="radioOption"></div>
+      <input type="radio" id="html" name="gender" value="female" />
+      <label for="html">Female</label>
+    </div>
+
+      <br />
+    </div>
+
+    <div class="radioContainer">
+      <h3>Plan: </h3>
+      <input type="radio" id="html" name="accountPlan" value="male" />
+      <label for="html">Free</label><input type="radio" id="html" name="accountPlan" value="male" />
+      <label for="html">Personal</label>
+    </div>
+
+      <br />
+      <!-- <button type="submit">Submit</button> -->
+    </form>
+
+
+    <div class="centeredForm">
+    <form action="../HTMLFiles/profile.html">
+      <input class="buttonSubmitRegister" type="submit" value="Submit" />
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INDEX NAV BAR</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Navigation Bar INDEX</title>
+        <link rel="stylesheet" href="assets/styles.css" />
+      </head>
+      <body>
+        <!--  a) Navigation Bar “Home | About” -->
+        <!-- Navigation Bar HTML -->
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="HTMLFiles/about.html">About</a>
+        </div>
+
+        <!--  b) The page is about service and pricing, put description of the service provided etc  -->
+
+        <!-- c) In pricing section, the should be at least 2 card(Free, Personal) but you can add more options -->
+
+        <!-- d) On each card, there should be button “Register” that route user to Register page  -->
+
+        <div class="card-container">
+          <div class="card">
+            <img src="img/cleaning.png" alt="Avatar" style="width: 100%" />
+            <div class="container">
+              <h4><b>Cleaning ✨</b></h4>
+              <dd><strong>GET FREE CLEANING SERVICE</strong></dd>
+              <dt>
+                We will make sure you get the best service! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maiores
+                voluptas repellat! Rerum veniam suscipit, amet ab eum quibusdam, perspiciatis, sint repellendus ratione impedit commodi nemo
+                officia illum blanditiis quam.
+              </dt>
+
+              <button class="button">Free</button>
+              <form action="HTMLFiles/register.html">
+                <input class="button" type="submit" value="Register" />
+              </form>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/vegetables.png" alt="Avatar" style="width: 100%" />
+            <div class="container">
+              <h4><b>✨ Veggies Garden Maintenance ✨</b></h4>
+              <dd><strong>FRESH VEGGIES FROM YOUR OWN GARDEN</strong></dd>
+              <dt>
+                Produce your own fresh veggies. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus neque, quos
+                recusandae perspiciatis quidem ut fugit perferendis tempore itaque. Quaerat eligendi ipsam in asperiores numquam quibusdam
+                dolore deserunt at!
+              </dt>
+
+              <button id="personalButton" class="button">Personal</button>
+              <form action="../HTMLFiles/register.html">
+                <input class="button" type="submit" value="Register" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
