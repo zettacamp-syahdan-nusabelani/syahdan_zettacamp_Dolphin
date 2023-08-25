@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  min-height: 100vh;
+  /* viewport-length or 674px 
+  will have min or equal height from user viewport*/
+  margin: 0;
+  background-color: #3c486b;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  /* flexible layout */
+  flex-wrap: wrap;
+  /* allign in to couple of line */
+  justify-content: space-between;
+  /* even space */
+  padding: 30px;
+  gap: 20px;
+  /* 20px gap between each container vert or horz */
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  background-color: #f0f0f0;
+  /* border: 1px solid #f45050; */
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* Absolute */
+  position: relative;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform-origin: bottom;
+  background-color: #f45050;
+  color: #f9d949;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #3ccf4e;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
