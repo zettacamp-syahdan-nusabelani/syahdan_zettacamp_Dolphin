@@ -1,0 +1,72 @@
+table {
+  border-collapse: collapse;
+  /* set the table borders should collapse into a single border or be separated with its own border  */
+  width: 100%;
+}
+
+.fonts,
+dd,
+dt,
+p,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 3px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.imgs {
+  width: 40px;
+  height: 40px;
+}
+
+/* FORM STYLES */
+#text-area {
+  margin-top: 10px;
+}
+
+#text-area-label {
+  margin-top: 20px;
+}
+
+#gender {
+  margin-bottom: 20px;
+}
+
+.etaw-input {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+#myButton {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #16a0f5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 17px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2c2e38;
+}
+#myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+#myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* END OF BUTTON */

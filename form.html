@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+      <h1 class="fonts">FORM GROUP</h1>
+    </div>
+    </header>
+
+    <!-- NAME FORM -->
+    <form class="fonts" action="">
+      Fill This Forms
+      <br />
+      <input class="fonts" type="text" placeholder="First Name" />
+      <input class="fonts" type="text" placeholder="Last Name" />
+    </form>
+    <!-- END OF NAME FORM -->
+
+    <br />
+
+    <!-- TEXT AREA FORM -->
+    <label class="fonts" for="biography" id="text-area-label">Biography:</label>
+    <form action="">
+      <div id="text-area">
+        <textarea id="biography" name="biography" rows="3" required></textarea>
+      </div>
+    </form>
+    <!-- END OF TEXT AREA FORM -->
+
+    <!-- RADIO BUTTON FOR GENDER -->
+    <div class="fonts" id="gender">
+      <p>Civility or Gender:</p>
+      <!-- MR. -->
+      <label for="civility-mr"> <input type="radio" id="civility-mr" name="civility-gender" value="Mr." required /> Mr. </label>
+
+      <!-- MRS -->
+      <label for="civility-mrs"> <input type="radio" id="civility-mrs" name="civility-gender" value="Mrs." required /> Mrs. </label>
+
+      <!-- MS -->
+      <label for="civility-ms"> <input type="radio" id="civility-ms" name="civility-gender" value="Ms." required /> Ms. </label>
+    </div>
+    <!-- END OF RADIO BUTTON -->
+
+    <!-- EMAIL INPUT -->
+    <div class="etaw-input fonts">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <!-- END OF EMAIL INPUT -->
+
+    <!-- TEL INPUT -->
+    <div class="etaw-input fonts">
+      <label for="telephone">Telephone:</label>
+      <input type="tel" id="telephone" name="telephone" required>
+    </div>
+    <!-- END OF TEL INPUT -->
+
+    <!-- NUMBER INPUT = AGE -->
+    <div class="etaw-input fonts">
+      <label for="age" pattern="[0-9]+">Age:</label>
+      <input type="number" id="age" name="age" required>
+    </div>
+    <!-- END OF NUMBER INPUT -->
+
+    <!-- SOCIAL MEDIA INPUT -->
+    <div class="etaw-input fonts">
+      <label for="website">Website or Social Media:</label>
+      <input type="url" id="website" name="website" required>
+    </div>
+    <!-- END OF SOCIAL MEDIA INPUT -->
+
+    <!-- SUBMMIT BUTTON -->
+    <div class="etaw-input fonts" >
+      <button type="submit" id="myButton">Submit</button>
+    </div>
+    <!-- END OF SUBMIT -->
+  </form>
+
+  <a href="index.html">LINK TO TABLES</a>
+  </body>
+</html>
