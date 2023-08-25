@@ -1,0 +1,17 @@
+[33mcommit 07d8cd8a78eec5d479e590ed80677def9d1c31f0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: zettacamp-syahdan-nusabelani <140963462+zettacamp-syahdan-nusabelani@users.noreply.github.com>
+Date:   Mon Aug 21 11:17:20 2023 +0700
+
+    [UI] Update Index HTML and Style.css to have red color on text <h1>
+
+[33mcommit e156bce4c2f6a63f1ed47dfcd7f56792c8c6f4b8[m
+Author: zettacamp-syahdan-nusabelani <140963462+zettacamp-syahdan-nusabelani@users.noreply.github.com>
+Date:   Mon Aug 21 11:16:09 2023 +0700
+
+    [UI] Update Index HTML to have tab title and body
+
+[33mcommit 7ecc514f73564635fff4d7ed329fcd56b5d8e70b[m
+Author: zettacamp-syahdan-nusabelani <140963462+zettacamp-syahdan-nusabelani@users.noreply.github.com>
+Date:   Mon Aug 21 11:13:47 2023 +0700
+
+    [Initialization] Files & Directory Creation
