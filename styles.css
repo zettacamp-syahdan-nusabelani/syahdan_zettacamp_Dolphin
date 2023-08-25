@@ -1,0 +1,67 @@
+* {
+  /* color: #333; */
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* untuk membuat kontainer dengan kelas "cards-container" menjadi kontainer fleksibel yang menempatkan elemen anak secara horizontal dengan ruang merata di antara mereka. Ini berguna dalam membuat tata letak kartu (cards) atau elemen-elemen lainnya yang perlu diatur secara horizontal dengan ruang yang merata di antara mereka, seperti daftar kartu atau bilah navigasi. */
+
+.card {
+  width: 22%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardSize {
+  height: 45px;
+  width: 45px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+.big-span {
+  font-size: 18px;
+}
+
+.small-span {
+  font-size: 14px;
+}
