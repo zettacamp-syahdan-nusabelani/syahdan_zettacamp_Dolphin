@@ -1,0 +1,187 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 em {
+    font-style: italic;
+}
+
+.books {
+    margin: 2rem;
+}
+
+#book__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#book__table th,
+#book__table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#book__table th {
+    background-color: #f2f2f2;
+}
+
+#book__table__body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#book-add {
+    background-color: #f2f2f2;
+}
+
+#book-add-form {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 0.5rem;
+    padding: 1rem;
+}
+
+#book-add-form input,
+#book-add-form textarea,
+#book-add-form select {
+    width: 100%;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#book-add-form ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #book-add-form {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+    }
+}
+
+/* Original Code */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 2px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ADD FORM */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
