@@ -1,0 +1,19 @@
+<!-- cart-item.component.html -->
+
+<div class="cart">
+    <h2>Your Menu</h2>
+    <div class="food-grid">
+        <div class="food-card" *ngFor="let food of cart; let i = index">
+            <div class="food-details">
+                <p class="food-name">{{ food.name }}</p>
+                <p class="food-description">{{ food.description }}</p>
+            </div>
+            <div class="quantity-controls">
+                <button class="quantity-btn" (click)="decreaseQuantity(i)">-</button>
+                <span>{{ food.quantity }}</span>
+                <button class="quantity-btn" (click)="increaseQuantity(i)">+</button>
+            </div>
+            <button class="delete-button" (click)="deleteFood(i)">Delete</button>
+        </div>
+    </div>
+</div>
